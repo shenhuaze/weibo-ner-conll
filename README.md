@@ -55,4 +55,4 @@ weiboNER只包含实体信息，如下：
 。0	O
 ```
 
-参考[FLAT](https://github.com/LeeSureman/Flat-Lattice-Transformer)的[issue17](https://github.com/LeeSureman/Flat-Lattice-Transformer/issues/17)，为了能够在[FLAT](https://github.com/LeeSureman/Flat-Lattice-Transformer)的代码里直接使用weiboNER_2nd_conll数据集，需要删除分词信息。可以直接从[data](https://github.com/shenhuaze/weibo-ner-conll/tree/main/data)下载处理好的数据集(以"_deseg"结尾的文件)，也可以[golden-horse](https://github.com/hltcoe/golden-horse/tree/master/data)下载原始的weiboNER_2nd_conll数据集，然后用脚本remove_seg_info.py转换。
+参考[FLAT](https://github.com/LeeSureman/Flat-Lattice-Transformer)的[issue17](https://github.com/LeeSureman/Flat-Lattice-Transformer/issues/17)，为了能够在[FLAT](https://github.com/LeeSureman/Flat-Lattice-Transformer)的代码里直接使用weiboNER_2nd_conll数据集，需要删除分词信息。可以直接从[data](https://github.com/shenhuaze/weibo-ner-conll/tree/main/data)下载处理好的数据集(以"_deseg"结尾的文件)，也可以[golden-horse](https://github.com/hltcoe/golden-horse/tree/master/data)下载原始的weiboNER_2nd_conll数据集，然后用脚本[remove_seg_info.py](https://github.com/shenhuaze/weibo-ner-conll/blob/main/remove_seg_info.py)转换。
